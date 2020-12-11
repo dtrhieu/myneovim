@@ -1,8 +1,13 @@
 let mapleader = "\<Space>"
 filetype plugin on
-filetype plugin indent on
+" FINDING FILES:
 
-syntax on
+" Search down into subfolders
+" Provide tab-completion for all file-related tasks
+set path+=**
+
+" Display all matching files when we tab complete
+set wildmenu
 
 set incsearch
 " set hlsearch
