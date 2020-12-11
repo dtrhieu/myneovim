@@ -5,10 +5,11 @@ filetype plugin indent on
 syntax on
 
 set incsearch
-set hlsearch
+" set hlsearch
 " Clear highligting on escape in normal mode
-nnoremap <esc> :noh<return><esc>
-nnoremap <esc>^[ <esc>^[
+"nnoremap <esc> :noh<return><esc>
+"nnoremap <esc>^[ <esc>^[
+
 " Two escapes to exit terminal edit mode
 tnoremap <esc><esc> <C-\><C-n>
 
